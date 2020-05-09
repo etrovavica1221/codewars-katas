@@ -1,0 +1,25 @@
+{
+  "name": "codewars-katas",
+  "version": "1.0.0",
+  "description": "My progress in codewars",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm test""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etrovavica1221/codewars-katas.git"
+  },
+  "keywords": [
+    "\"JavaScript\""
+  ],
+  "author": "Viktoriia Petrova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etrovavica1221/codewars-katas/issues"
+  },
+  "homepage": "https://github.com/etrovavica1221/codewars-katas#readme"
+}
