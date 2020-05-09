@@ -1,4 +1,4 @@
-const { function } = require("../src");
+const { removeChar } = require("../src");
 
 describe("Tests", function(){
 
