@@ -4,18 +4,16 @@
   "description": "My progress in codewars",
   "main": "index.js",
   "directories": {
-    "test": "test"
+    "test": "test",
+    "src": "src"
   },
   "scripts": {
-    "test": "npm test""
+    "test": "npm test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/etrovavica1221/codewars-katas.git"
   },
-  "keywords": [
-    "\"JavaScript\""
-  ],
   "author": "Viktoriia Petrova",
   "license": "ISC",
   "bugs": {
