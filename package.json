@@ -4,7 +4,7 @@
   "description": "My progress in codewars",
   "main": "index.js",
   "directories": {
-    "test": "test",
+    "test": "jest",
     "src": "src"
   },
   "scripts": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/etrovavica1221/codewars-katas/issues"
   },
-  "homepage": "https://github.com/etrovavica1221/codewars-katas#readme"
+  "homepage": "https://github.com/etrovavica1221/codewars-katas#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
 }
