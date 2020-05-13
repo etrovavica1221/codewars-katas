@@ -1,4 +1,4 @@
-const { countDevelopers } = require("../src");
+const countDevelopers = require("../src/devComingFromEurope");
 
 var list1 = [
     { firstName: 'Noah', lastName: 'M.', country: 'Switzerland', continent: 'Europe', age: 19, language: 'JavaScript' },
@@ -12,5 +12,9 @@ var list1 = [
     { firstName: 'Lukas', lastName: 'R.', country: 'Austria', continent: 'Europe', age: 89, language: 'HTML' }
   ];
   
-  Test.assertEquals(countDevelopers(list1), 1);
-  Test.assertEquals(countDevelopers(list2), 0);
+  describe("countDevelopers",() => {
+    test("return the number of JavaScript developers coming from Europe", () => {
+      expect(countDevelopers(list1)).toEqual(1);
+      expect(countDevelopers(list2)).toEqual(0);
+    });
+  });

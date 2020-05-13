@@ -1,10 +1,10 @@
-const { removeChar } = require("../src");
+const removeChar = require("../src/removeFirstAndLast");
 
-describe("Tests", function(){
-
-Test.assertEquals(removeChar('eloquent'), 'loquen');
-Test.assertEquals(removeChar('country'), 'ountr');
-Test.assertEquals(removeChar('person'), 'erso');
-Test.assertEquals(removeChar('place'), 'lac');
-  
+describe("Tests", () => {
+    test("removes the first and last characters of a string", () => {
+        expect(removeChar('eloquent')).toBe('loquen');
+        expect(removeChar('country')).toBe('ountr');
+        expect(removeChar('person')).toBe('erso');
+        expect(removeChar('place')).toBe('lac');
+    });   
 });
